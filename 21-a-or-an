@@ -1,7 +1,7 @@
 public String aOrAn(String word) {
     Set<String> vowelSet = 
         new Set<String>{'a','e','i','o','u'};
-         if(vowelSet.contains(word.substring(0))){
+         if(vowelSet.contains(word.substring(1))){
             return 'an '+word;
         }else{
             return 'a '+word;
